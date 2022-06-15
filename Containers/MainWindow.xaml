@@ -1,0 +1,91 @@
+﻿<Window x:Class="Containers.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Containers"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="800">
+
+    <!--<StackPanel>
+        <Button Height="100">Button1</Button>
+        <Button Height="100">Button1</Button>
+        <Button Height="100">Button1</Button>
+    </StackPanel>-->
+
+
+
+    <!--<StackPanel>
+        <Button Height="200" Width="200" FontSize="36" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <RotateTransform Angle="84"/>
+                    <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
+                    <TranslateTransform Y="100" X="100"/>
+                    <SkewTransform AngleY="40"></SkewTransform>
+                </TransformGroup>
+            </Button.RenderTransform> Button1
+        </Button>
+    </StackPanel>-->
+
+
+
+    <!--<Canvas>
+        <Button Background="Beige" Canvas.Left="100" Canvas.Bottom="200" Panel.ZIndex="1"  Height="200" Width="200" FontSize="36">Button1</Button>
+        <Button Background="Goldenrod" Canvas.Left="100" Canvas.Bottom="50" Panel.ZIndex="2"  Height="200" Width="200" FontSize="36">Button2</Button>
+    </Canvas>-->
+
+
+    <!--<WrapPanel Orientation="Vertical">
+        <Button Background="Beige" Height="200" Width="200" FontSize="36">Button1</Button>
+        <Button Background="Goldenrod"  Height="200" Width="200" FontSize="36">Button2</Button>
+        <Button Background="DeepSkyBlue"  Height="200" Width="200" FontSize="36">Button3</Button>
+    </WrapPanel>-->
+
+
+
+    <!--<DockPanel>
+        <StackPanel Orientation="Horizontal" DockPanel.Dock="Top" Background="Green" Height="100">
+            <Button FontSize="24">Haqqimizda</Button>
+            <Button FontSize="24">Elaqe</Button>
+            <Button FontSize="24">Magazalar</Button>
+        </StackPanel>
+        
+        <Button DockPanel.Dock="Bottom" FontSize="48" Background="Red" Height="100">Footer</Button>
+        <Button DockPanel.Dock="Left" FontSize="36" Background="Yellow" Width="100">Aside</Button>
+        --><!--<Button DockPanel.Dock="Right" Background="Yellow" Width="100"></Button>--><!--
+
+        <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Label FontSize="48">Body</Label>
+        </Grid>
+    </DockPanel>-->
+
+
+
+
+
+    <!--<Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="8*"/>
+            <ColumnDefinition Width="5*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        
+        <Button Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Grid.RowSpan="2"></Button>
+    </Grid>-->
+
+</Window>
+
+<!--
+    StackPanel
+    Grid
+    WrapPanel
+    Canvas
+    DockPanel
+-->
